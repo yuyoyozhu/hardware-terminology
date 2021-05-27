@@ -1,11 +1,48 @@
+h1 {
+	color: #679436;
+	border:3px solid #ccd5ae;
+	background: #f7f7f6;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
 h2 {
 	text-align: center
 }
 
+
 body {
-	font-family: helvetica;
+	color: #667051;
 	text-align: center;
-	background-color: #
+	letter-spacing:  0.5px;
+	word-spacing: 0.6px;
+	background-color: #;
+	background-image: url(bg.jpeg);
+	background-size: contain;
+
+
+}
+
+img {
+	float: right;
+	margin-left: 8px;
+	border-radius: 10px;
+	width: 150px;
+	border: 1px solid green;
+
+
+}
+
+div {
+	border-radius: 70px;
+   background: #e9edc9;
+   padding: 20px;
+  height: 200px;
+  border: 3px solid #ccd5ae;
+ margin: 20px;
+ margin-left: 200px;
+  margin-right: 200px;
 }
 
 #toc_container {
@@ -17,17 +54,16 @@ body {
    height: 500px;
    line-height: 40px;
    font-weight: bold;
-   color: #679436
+   color: #679436;
+	 text-align: center;
 }
 
-#input_device {
- border-radius: 70px;
-  background: #e9edc9;
-  padding: 20px;
- height: 250px;
- width: 500px;
- border: 3px solid #ccd5ae;
-
+h3 {
+	color: #679436;
+	border:3px solid #ccd5ae;
+	background: #f7f7f6;
+	border-radius: 10px;
+	padding: 5px;
 }
 
 a {
@@ -35,13 +71,15 @@ a {
 }
 
 a:link {
-	color: red;
+	color: #667051;
+	text-decoration:none;
 }
 
 a: visited {
-color: green
+text-decoration:none;
 }
-	
+
 a:hover {
-color: #76c893
+color: #76c893;
+text-decoration:none
 }
